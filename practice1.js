@@ -10,8 +10,20 @@
 
 
     var four = ["laugh", "eat", "play", "cats"]
-    for (i == 0; i = four.length; i++) {
-        if (four[i].charLength === 4) {
+    for (i = 0; i < four.length; i++) {
+        if (four[i].length === 4) {
             console.log(four[i])
         }
-    }
+    } 
+
+    // make an array of different words in strings that have different lengths
+    // using a for statement is what cycles through strings
+    // using an if statement
+
+
+
+    // 1. Start with an array of strings with a mix of uppercase and lowercase letters. 
+    // Print every word in all lowercase letters.
+
+    // var mix = ["mix", "SHIRT", "day", "LIFT"]
+
